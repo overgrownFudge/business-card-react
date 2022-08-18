@@ -1,4 +1,5 @@
 import React from 'react'
+import linkedin from '../images/linkedin-icon.png'
 
 export default function Interests() {
     return  <div>
@@ -9,7 +10,7 @@ export default function Interests() {
                     <p>Frontend Dev</p>
                     <p>website</p>
                     <button className = "btn-white">Email</button>
-                    <button className = "btn-blue">LinkedIn</button>
+                    <button className = "btn-blue"><img src={linkedin}/>LinkedIn</button>
                 </div>
             </div>
 } 
