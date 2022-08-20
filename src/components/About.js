@@ -1,9 +1,13 @@
 import React from 'react'
 
 export default function About() {
-    return <div className = "about"> 
-                <h3>About</h3>
-                <p>I am studying computer science to understand how to use ReactJs. The most popular framework for javaScript right now. It makes all codes to be implicit and takes away a lot of the ground work to building a project. This project will show my understanding of building static web pages using this powerful library.</p> 
-            </div>
+    return <div className="about">
+        <h3>About</h3>
+        <p>
+            As an aspiring web developer, I want to leave my mark on the rapidly changing IT industry.
+            I am optimistic that I can profoundly improve the lives of the underprivileged by using the power of coding.
+            Understanding how to write clean code is the first step.
+        </p>
+    </div>
 
 } 
