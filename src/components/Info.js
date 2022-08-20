@@ -9,7 +9,7 @@ export default function Interests() {
                 <div className = "info">
                     <h1>Ismail Khan</h1>
                     <p>Frontend Dev</p>
-                    <p><a href="#">website</a></p>
+                    <p><a href="#">codeKhanect.com</a></p>
                     <button className = "btn-white"><img className = "info-icon" src={email}/>Email</button>
                     <button className = "btn-blue"><img className = "info-icon" src={linkedin}/>LinkedIn</button>
                 </div>
