@@ -6,11 +6,9 @@ import insta from '../images/insta-icon.png'
 
 export default function Footer() {
     return <div className="footer">
-        <footer>
-            <img src={twitter}/>
-            <img src={fb}/>
-            <img src={insta}/>
-            <img src={git}/>
-        </footer>
+            <img className = "icon" src={twitter}/>
+            <img className = "icon" src={fb}/>
+            <img className = "icon" src={insta}/>
+            <img className = "icon" src={git}/>
     </div>
 } 
